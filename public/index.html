@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="contenidoi-header">
+            <h1>Verificador de cadenas ADN</h1>
+        </div>
+    </header>
+    <div class="prueba-local">
+        <div class="container">
+            <br>
+            <form class="container" id="form">
+                <h1>Prueba de ADN local</h1>
+                
+                <label>introduzca la cadena de adn, separando las mismas con una coma evitando usar espacios</label>
+                <label>Solo se aceptaran los valores de bases nitrogenadas validas (A,T,G,C)</label>      
+                <textarea  name="adnTxt"></textarea>
+                <button type="submit">Enviar ADN</button>
+                <br>
+                <h2>cadenas de ADN de prueba</h2>
+                <p id="cadena1">Cadena con 3 mutaciones: </p>
+                <p id="cadena2">Cadena sin mutaciones: </p>
+                <p id="cadena3">Cadena con 1 mutacion</p>
+            </form>
+        </div>
+        <div class="contenedor">
+            <h1>Resultado de la consulta:</h1>
+            <div class="resultados">
+    
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="app.js"></script>
+</html>

@@ -1,0 +1,13 @@
+[
+    {
+        "id" : 1,
+        "adn" : ["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"],
+        "mutacion" : true
+    },
+    {
+        "id" : 2,
+        "adn" : ["ATGCGA","CAGTGC","TTATTT","AGACGG","GCGTCA","TCACTG"
+        ],
+        "mutacion" : true
+    }
+]
